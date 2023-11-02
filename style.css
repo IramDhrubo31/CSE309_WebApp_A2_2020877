@@ -8,6 +8,14 @@ nav ul li{
     display: inline;
     padding: 8px;
 }
+#actionButton{
+    background: none;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    border-color: white;
+}
 header img{
     width: 100%;
     height: 500px;
@@ -18,28 +26,54 @@ section header nav{
 #bedfordTitle{
     position: absolute;
     color: white;
+    font-weight: 900;
     top: 0px;
     left: 20px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+#foundationTitle{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    top: 0px;
+    left: 20px;
+    margin-top: 60px;
+    font-size: 16px;
 }
 
 #navBar{
     position: absolute;
     color: white;
+    font-weight: 700;
     top: 10px;
     right: 10px;
+    margin-top: 30px;
 }
 #title{
     position: absolute;
     top: 30%;
-    right: 40%;
+    right: 35%;
     color: white;
     text-align: center;
 }
-#title h1{
+#title strong{
     font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#learnMoreButton{
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #5aafac;
+    font-weight: 500;
+}
+#title i{
+    font-size: 20px;
 }
 #content{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
 }
 #content h1{
@@ -52,7 +86,7 @@ section header nav{
 #content2{
     text-align: center;
     display: flex;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 50px;
     margin-bottom: 80px;
     gap: 3vw;
@@ -61,6 +95,13 @@ section header nav{
 #content2 img{
     width: 400px;
     height: 200px;
+}
+
+#learnButton, #findOutButton{
+    background: none;
+    border: none;
+    color: #5aafac;
+    font-weight: 500;
 }
 
 #footerIcon{
@@ -72,9 +113,10 @@ section header nav{
     background-color: #1f1f1f;
     color: #b6b6b6;
     padding: 30px;
+    font-size: 16px;
 }
 
-.fa-twitter, .fa-instagram, .fa-pinterest, .fa-youtube-play {
+.fa-twitter, .fa-instagram, .fa-pinterest, .fa-youtube{
     background: white;
     color: black;
     border-radius: 20px;
@@ -87,4 +129,3 @@ section header nav{
 footer{
     text-align: center;
 }
-
